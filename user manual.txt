@@ -1,0 +1,5 @@
+1.After initialization, run "AdmGUI.java", input your email(the only identifier in our software)in the text field, then press "Add" button to create an account.
+2. run "StudentGUI.java" to start driving. First press location buttons to chosse a loacation, then press "swipe card" button to pickup a car/return a car.(These 2 functions are integrated in this single button)
+3. time will appera on the student GUI, if you ride more than 30 seconds once,you will be fobbidden from driving unless you pay the fine.
+4. pay the fine at "AdmGUI.java" and check more useful functions. 
+(p.s. we regard email function as overdesign so email button is only a decoration in our software, serves no use)
