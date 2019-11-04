@@ -23,7 +23,7 @@ class ObjectIOTest {
 		 File file =new File("data.dat");
 		 FileInputStream in = new FileInputStream(file);
 		 objIn = new ObjectInputStream(in);
-		 Object temp=objIn.readObject();
+		 Object temp= objIn.readObject();
 		 objIn.close();
 		assertEquals(temp,ObjectIO.readObjectFromFile());
 	}
